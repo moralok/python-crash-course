@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-from chapter15.random_walk import RandomWalk
+from random_walk import RandomWalk
 
 while True:
     # 创建一个RandomWalk实例，并将其包含的点绘制出来
