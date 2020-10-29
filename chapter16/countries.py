@@ -1,0 +1,12 @@
+from pygal_maps_world.i18n import COUNTRIES
+
+# 模块已经改了
+def get_country_code(country_name):
+    '''
+    根据指定的国家，返回两个字母的国别码
+    '''
+    for code, name in COUNTRIES.items():
+        if name == country_name:
+            return code
+    # 如果没有找到指定的国家，就返回None
+    return None
